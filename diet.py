@@ -53,11 +53,11 @@ weekly_deficit = 7 * fitness.calories_deficit()
 
 print()
 if weekly_deficit > 0:
-    print(f"You Will Lose {weekly_deficit / 3600} Lbs. Per Week")
+    print(f"[+] => You Will Lose {weekly_deficit / 3600} Lbs. Per Week")
 
 elif weekly_deficit == 0:
-    print(f"Your Weight Will Stay the Same")
+    print(f"[+] => Your Weight Will Stay the Same")
 
 else:
-    print(f"You Will Gain {-1 * weekly_deficit / 3600} Lbs. Per Week")
+    print(f"[+] => You Will Gain {-1 * weekly_deficit / 3600} Lbs. Per Week")
 
